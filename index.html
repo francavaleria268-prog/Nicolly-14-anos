@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#a8ddd4">
+<title>Nicolly • Pool Party • 14 anos</title>
+<style>
+:root{--pink:#e78eae;--deep:#bd527b;--mint:#a8ddd4;--gold:#c7a45b;--cream:#fff8f0;--ink:#604c50}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:grid;place-items:center;padding:22px;background:linear-gradient(145deg,#f8d7e2,#bde8df 55%,#f7e8c9);font-family:Georgia,'Times New Roman',serif;color:var(--ink)}
+.invite{width:min(100%,440px);position:relative;overflow:hidden;border:2px solid #d2b36f;border-radius:28px;background:var(--cream);box-shadow:0 18px 55px #79505a35;text-align:center;padding:28px 23px 30px}
+.invite:before,.invite:after{content:"";position:absolute;width:180px;height:180px;border-radius:50%;filter:blur(1px);opacity:.38;pointer-events:none}
+.invite:before{background:var(--pink);top:-105px;left:-95px}
+.invite:after{background:var(--mint);bottom:-115px;right:-90px}
+.content{position:relative;z-index:1}
+.topline{font:600 11px/1.5 Arial,sans-serif;letter-spacing:4px;text-transform:uppercase;color:var(--deep)}
+.flower{font-size:30px;letter-spacing:7px;margin:10px 0}
+h1{font-size:clamp(42px,12vw,58px);line-height:.95;margin:12px 0 4px;color:var(--deep);font-weight:500}
+.age{font-size:clamp(58px,17vw,82px);line-height:1;color:#c39c4d;margin:0}
+.pool{font:700 15px Arial,sans-serif;letter-spacing:5px;color:#4d9e96;margin:9px 0 18px}
+.intro{font-size:17px;line-height:1.5;margin:0 auto 18px;max-width:310px}
+.details{border-top:1px solid #dfc990;border-bottom:1px solid #dfc990;padding:14px 5px;margin:16px 0}
+.date{font:700 19px Arial,sans-serif;color:var(--deep);letter-spacing:1px}
+.time{margin-top:7px;font:600 13px Arial,sans-serif;letter-spacing:2px;color:#7c7770}
+.address{font-size:15px;line-height:1.5;margin:14px 0 18px}
+.buttons{display:grid;gap:11px;margin:18px auto;max-width:310px}
+a.btn{display:block;text-decoration:none;border-radius:999px;padding:14px 16px;background:var(--deep);color:white;font:700 12px Arial,sans-serif;letter-spacing:1.2px;box-shadow:0 5px 0 #8e3d60;transition:transform .15s}
+a.btn:nth-child(2){background:#579f97;box-shadow:0 5px 0 #397d77}
+a.btn:active{transform:translateY(3px);box-shadow:none}
+.note{font-size:16px;line-height:1.5;color:#8b5b69;margin:19px auto 8px}
+.footer{font:10px Arial,sans-serif;letter-spacing:2px;color:#a28c70;margin-top:18px}
+@media(prefers-reduced-motion:no-preference){.invite{animation:rise .7s ease-out}@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}}
+</style>
+</head>
+<body>
+<main class="invite">
+ <div class="content">
+  <div class="topline">Você está convidado para</div>
+  <div class="flower">🌺 ✨ 🌴 ✨ 🌺</div>
+  <h1>Nicolly</h1>
+  <p class="age">14</p>
+  <div class="pool">POOL PARTY</div>
+  <p class="intro">Sol, piscina e muita diversão!<br>Venha comemorar comigo esse dia especial.</p>
+  <div class="details">
+   <div class="date">13 DE DEZEMBRO</div>
+   <div class="time">A PARTIR DAS 13H30</div>
+  </div>
+  <div class="address">📍 Rua Feliz, 14<br>Itaquaquecetuba – SP</div>
+  <div class="buttons">
+   <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Rua%20Feliz%2C%2014%2C%20Itaquaquecetuba%2C%20SP%2C%20Brasil" target="_blank" rel="noopener">📍 VER LOCALIZAÇÃO</a>
+   <a class="btn" href="https://wa.me/5511968591009?text=Ol%C3%A1!%20Quero%20confirmar%20minha%20presen%C3%A7a%20na%20Pool%20Party%20de%2014%20anos%20da%20Nicolly!" target="_blank" rel="noopener">💌 CONFIRMAR PRESENÇA</a>
+  </div>
+  <p class="note">Não esqueça seu traje de banho!<br>Espero você para curtir essa festa comigo! 💦</p>
+  <div class="flower">🌸 🥥 🌺</div>
+  <div class="footer">ROSA • VERDE-ÁGUA • DOURADO</div>
+ </div>
+</main>
+</body>
+</html>
