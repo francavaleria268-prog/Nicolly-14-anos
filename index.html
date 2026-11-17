@@ -56,5 +56,54 @@ a.btn:active{transform:translateY(3px);box-shadow:none}
   <div class="footer">ROSA • VERDE-ÁGUA • DOURADO</div>
  </div>
 </main>
+ 
+<style>
+#lista-presentes {
+  border: 2px solid #e78eae;
+  border-radius: 18px;
+  padding: 24px;
+  max-width: 320px;
+  text-align: center;
+  color: #75445a;
+}
+#lista-presentes::backdrop {
+  background: rgba(0,0,0,.6);
+}
+#lista-presentes li {
+  margin: 12px 0;
+  text-align: left;
+}
+.botao-presentes {
+  display: block;
+  margin: 20px auto;
+  padding: 14px 22px;
+  border: 0;
+  border-radius: 30px;
+  background: #e78eae;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+</style>
+
+<button class="botao-presentes" onclick="document.getElementById('lista-presentes').showModal()">
+🎁 Sugestões de presentes
+</button>
+
+<dialog id="lista-presentes">
+<h2>🎀 Sugestões de presentes</h2>
+<p>Sua presença já é meu maior presente! ❤️</p>
+<ul>
+<li>Maquiagens</li>
+<li>Joias de prata</li>
+<li>Perfume</li>
+<li>Roupas – tamanho P</li>
+<li>Calçados – número 35</li>
+</ul>
+<p><strong>💗 Pix: 46407859840</strong></p>
+<button onclick="navigator.clipboard.writeText('46407859840')">Copiar Pix</button>
+<p><button onclick="document.getElementById('lista-presentes').close()">Fechar</button></p>
+</dialog>
+ 
 </body>
 </html>
